@@ -4,5 +4,5 @@ attributes :user
 attributes :total_kilometers
 
 child :user do
-  attributes :name, :email
+  attributes :id, :name, :email
 end
